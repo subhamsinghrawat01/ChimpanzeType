@@ -1,0 +1,63 @@
+#current-word{
+  width: 500px;
+}
+#content{
+   font-size: 20px;
+  }
+body{
+  height: 700px;
+  width: 100%;
+  background-color: #B5B6BA;
+}
+body h1{
+  text-align: center;
+  display: inline;
+  background-color: yellow;
+  border-radius: 2px;
+}
+.highlight{
+  background-color: skyblue;
+}
+.error{
+  background-color: red;
+}
+#uppermid{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mid{
+  height: 30px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* display:inline-block; */
+  /* align-items: center; */
+}
+#content{
+  /* height: 80%;
+  width: 80%; */
+  height: 400px;
+  width:750px;
+  border: solid rgb(220, 235, 84) 2px;
+  /* position: relative; */
+  /* padding-left: 100px; */
+}
+#icon{
+  height: 100px;
+  display: inline;
+}
+#top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bottom{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
